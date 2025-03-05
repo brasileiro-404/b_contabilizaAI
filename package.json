@@ -1,0 +1,26 @@
+{
+  "name": "b_contabilizaai",
+  "version": "1.0.0",
+  "description": "Esse é um repositório com finalidade de resolver um problema de contabilidade no qual deve oferecer ao usuario uma visão melhorada e auxiliar na tomada de decisão no mundo contãbil.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/express": "^5.0.0",
+    "eslint": "^9.21.0",
+    "globals": "^16.0.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript-eslint": "^8.26.0"
+  }
+}
